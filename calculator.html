@@ -18,6 +18,10 @@ var num1 = document.getElementById("n1");
 num1.value = Math.pow(num1.value, 4);
 
 }
+    function sin(){
+        var num1 = document.getElementById("n1");
+        num1.value = Math.sin(Math.PI/2);
+    }
 
 </script>
 
@@ -27,11 +31,11 @@ num1.value = Math.pow(num1.value, 4);
 
 Number:
 
-<input type="text" id="n1"><p>
+<input type="text" id="n1" type="number" step="any"><p>
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="num4()"> x^4 </button>
-
+<button onclick="sin()"> SIN(X) </button>
 </body>
 
 </html>
